@@ -4,37 +4,37 @@
  * created: 10/14/2022
  */
 public class Side {
-	private static String name;
-	private static String description;
-	private static int calories;
+	private String name;
+	private String description;
+	private int calories;
 	
 	public Side(String name, String description, int calories) {
-		Side.name= name;
-		Side.description= description;
-		Side.calories= calories;
+		this.name= name;
+		this.description= description;
+		this.calories= calories;
 	}
 	
-	public static String getSiName() {
+	public String getSiName() {
 		return name;
 	}
 	
 	public void setSiName(String name) {
-		Side.name=name;
+		this.name=name;
 	}
 	
-	public static String getSiDesc() {
+	public String getSiDesc() {
 		return description;
 	}
 	
 	public void setSiDesc(String description) {
-		Side.description=description;
+		this.description=description;
 	}
 	
-	public static int getSiCals() {
+	public int getSiCals() {
 		return calories;
 	}
 	
 	public void setSiCals(int calories) {
-		Side.calories=calories;
+		this.calories=calories;
 	}
 }

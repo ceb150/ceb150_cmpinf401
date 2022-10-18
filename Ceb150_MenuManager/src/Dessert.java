@@ -4,37 +4,37 @@
  * created: 10/14/2022
  */
 public class Dessert {
-	private static String name;
-	private static String description;
-	private static int calories;
+	private String name;
+	private String description;
+	private int calories;
 	
 	public Dessert(String name, String description, int calories) {
-		Dessert.name= name;
-		Dessert.description= description;
-		Dessert.calories= calories;
+		this.name= name;
+		this.description= description;
+		this.calories= calories;
 	}
 	
-	public static String getDName() {
+	public String getDName() {
 		return name;
 	}
 	
 	public void setDName(String name) {
-		Dessert.name=name;
+		this.name=name;
 	}
 	
-	public static String getDDesc() {
+	public String getDDesc() {
 		return description;
 	}
 	
 	public void setDDesc(String description) {
-		Dessert.description=description;
+		this.description=description;
 	}
 	
-	public static int getDCals() {
+	public int getDCals() {
 		return calories;
 	}
 	
 	public void setDCals(int calories) {
-		Dessert.calories=calories;
+		this.calories=calories;
 	}
 }

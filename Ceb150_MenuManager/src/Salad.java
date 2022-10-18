@@ -4,37 +4,37 @@
  * created: 10/14/2022
  */
 public class Salad {
-	private static String name;
-	private static String description;
-	private static int calories;
+	private String name;
+	private String description;
+	private int calories;
 	
 	public Salad(String name, String description, int calories) {
-		Salad.name= name;
-		Salad.description= description;
-		Salad.calories= calories;
+		this.name= name;
+		this.description= description;
+		this.calories= calories;
 	}
 	
-	public static String getSaName() {
+	public String getSaName() {
 		return name;
 	}
 	
 	public void setSaName(String name) {
-		Salad.name=name;
+		this.name=name;
 	}
 	
-	public static String getSaDesc() {
+	public String getSaDesc() {
 		return description;
 	}
 	
 	public void setSaDesc(String description) {
-		Salad.description=description;
+		this.description=description;
 	}
 	
-	public static int getSaCals() {
+	public int getSaCals() {
 		return calories;
 	}
 	
 	public void setSaCals(int calories) {
-		Salad.calories=calories;
+		this.calories=calories;
 	}
 }
